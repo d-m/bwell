@@ -7,6 +7,8 @@ verify_ssl = true
 pytest = "*"
 pylint = "<2.0.0"
 pep8 = "*"
+flake8 = "*"
+jupyter = "*"
 
 [packages]
 django = "==1.11.5"
@@ -14,6 +16,7 @@ django-rest-framework = "*"
 markdown = "*"
 django-filter = "*"
 django-localflavor = "*"
+requests = "*"
 
 [requires]
 python_version = "2.7"
