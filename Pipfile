@@ -11,7 +11,7 @@ flake8 = "*"
 jupyter = "*"
 
 [packages]
-django = "==1.11.5"
+django = "==1.11.6"
 django-rest-framework = "*"
 markdown = "*"
 django-filter = "*"
