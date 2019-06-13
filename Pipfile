@@ -9,6 +9,7 @@ pylint = "<2.0.0"
 pep8 = "*"
 flake8 = "*"
 jupyter = "*"
+rope = "*"
 
 [packages]
 django = "==1.11.6"
