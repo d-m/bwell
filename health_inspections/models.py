@@ -21,6 +21,9 @@ class Establishment(models.Model):
         else:
             return self.dba_name
 
+    def __str__(self):
+        return self.name
+
 
 class Inspection(models.Model):
     inspection_id = models.IntegerField()
@@ -29,3 +32,6 @@ class Inspection(models.Model):
     inspection_results = models.CharField(max_length=50)
     violations = models.CharField(max_length=100)
     establishment = models.ForeignKey(Establishment, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return 'Inspection Id: {}'.format(self.inspection_id)
