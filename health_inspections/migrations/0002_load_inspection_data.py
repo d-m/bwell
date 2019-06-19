@@ -7,6 +7,7 @@ import datetime
 import logging
 import os
 import requests
+from django.conf import settings
 from django.db import migrations
 
 
@@ -99,6 +100,10 @@ def load_data(apps, schema_editor):
         )
     )
 
+if settings.TEST:
+    migration_steps = [migrations.RunPython(load_data),]
+else:
+    migration_steps = []
 
 class Migration(migrations.Migration):
 
@@ -106,6 +111,4 @@ class Migration(migrations.Migration):
         ('health_inspections', '0001_initial'),
     ]
 
-    operations = [
-        migrations.RunPython(load_data),
-    ]
+    operations = migration_steps
