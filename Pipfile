@@ -10,6 +10,9 @@ pep8 = "*"
 flake8 = "*"
 jupyter = "*"
 rope = "*"
+django-debug-toolbar = "*"
+pytest-django = "*"
+mock = "*"
 
 [packages]
 django = "==1.11.6"
