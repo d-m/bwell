@@ -31,7 +31,7 @@ class Inspection(models.Model):
     inspection_type = models.CharField(max_length=50)
     inspection_results = models.CharField(max_length=50)
     violations = models.CharField(max_length=100)
-    establishment = models.ForeignKey(Establishment, on_delete=models.CASCADE)
+    establishment = models.ForeignKey(Establishment, related_name='inspections', on_delete=models.CASCADE)
 
     def __str__(self):
         return 'Inspection Id: {}'.format(self.inspection_id)
