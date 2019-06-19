@@ -59,4 +59,3 @@ class InspectionSerializerTest(test.APITestCase):
             set(serialized_inspection.fields.keys()),
             INSPECTION_INSPECTED_KEYS
         )
-    

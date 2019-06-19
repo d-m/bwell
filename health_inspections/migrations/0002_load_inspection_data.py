@@ -100,10 +100,12 @@ def load_data(apps, schema_editor):
         )
     )
 
+
 if settings.TEST:
-    migration_steps = [migrations.RunPython(load_data),]
-else:
     migration_steps = []
+else:
+    migration_steps = [migrations.RunPython(load_data),]
+
 
 class Migration(migrations.Migration):
 

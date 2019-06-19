@@ -156,4 +156,4 @@ LOGGING = {
 DEBUG=True
 INTERNAL_IPS=['127.0.0.1',]
 
-TEST = 'test' in sys.argv
+TEST = 'test' in sys.argv or 'pytest' in sys.argv
