@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b69d584b0ccd3953c5853f9b13a5d90fe515475ebec7f2aa614f78a9c94e4e6c"
+            "sha256": "dfd67e7afff7770d99b0dcdf4f40aa134f8ad28fa519a36a693df2b0c4d46404"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -32,11 +32,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:7ab6a9c798a5f9f359ee6da3677211f883fb02ef32cebe9b29751eb7a871febf",
-                "sha256:c3b42ca1efa1c0a129a9e863134cc3fe705c651dea3a04a7998019e522af0c60"
+                "sha256:aae1b776d78cc3f492afda405b9b9d322b27761442997456c158687d7a0610a1",
+                "sha256:ba723e524facffa2a9d8c2e9116db871e16b9207e648e1d3e4af8aae1167b029"
             ],
             "index": "pypi",
-            "version": "==1.11.6"
+            "version": "==1.11.21"
         },
         "django-filter": {
             "hashes": [
@@ -198,11 +198,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:7ab6a9c798a5f9f359ee6da3677211f883fb02ef32cebe9b29751eb7a871febf",
-                "sha256:c3b42ca1efa1c0a129a9e863134cc3fe705c651dea3a04a7998019e522af0c60"
+                "sha256:aae1b776d78cc3f492afda405b9b9d322b27761442997456c158687d7a0610a1",
+                "sha256:ba723e524facffa2a9d8c2e9116db871e16b9207e648e1d3e4af8aae1167b029"
             ],
             "index": "pypi",
-            "version": "==1.11.6"
+            "version": "==1.11.21"
         },
         "django-debug-toolbar": {
             "hashes": [
@@ -226,7 +226,7 @@
                 "sha256:6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79",
                 "sha256:8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1"
             ],
-            "markers": "python_version == '2.7'",
+            "markers": "python_version < '3.4'",
             "version": "==1.1.6"
         },
         "flake8": {
@@ -242,7 +242,7 @@
                 "sha256:330cc27ccbf7f1e992e69fef78261dc7c6569012cf397db8d3de0234e6c937ca",
                 "sha256:a7bb0f2cf3a3fd1ab2732cb49eba4252c2af4240442415b4abce3b87022a8f50"
             ],
-            "markers": "python_version < '3.3'",
+            "markers": "python_version < '3.0'",
             "version": "==1.0.2"
         },
         "functools32": {
@@ -353,10 +353,10 @@
         },
         "jupyter-core": {
             "hashes": [
-                "sha256:927d713ffa616ea11972534411544589976b2493fc7e09ad946e010aa7eb9970",
-                "sha256:ba70754aa680300306c699790128f6fbd8c306ee5927976cbe48adacf240c0b7"
+                "sha256:2c6e7c1e9f2ac45b5c2ceea5730bc9008d92fe59d0725eac57b04c0edfba24f7",
+                "sha256:f4fa22d6cf25f34807c995f22d2923693575c70f02557bcbfbe59bd5ec8d8b84"
             ],
-            "version": "==4.4.0"
+            "version": "==4.5.0"
         },
         "lazy-object-proxy": {
             "hashes": [
@@ -484,7 +484,7 @@
                 "sha256:25199318e8cc3c25dcb45cbe084cc061051336d5a9ea2a12448d3d8cb748f742",
                 "sha256:5887121d7f7df3603bca2f710e7219f3eca0eb69e0b7cc6e0a022e155ac931a7"
             ],
-            "markers": "python_version == '2.7' or python_version == '3.3'",
+            "markers": "python_version == '3.4.*' or python_version < '3'",
             "version": "==2.3.3"
         },
         "pep8": {
@@ -751,12 +751,12 @@
         },
         "typing": {
             "hashes": [
-                "sha256:4027c5f6127a6267a435201981ba156de91ad0d1d98e9ddc2aa173453453492d",
-                "sha256:57dcf675a99b74d64dacf6fba08fb17cf7e3d5fdff53d4a30ea2a5e7e52543d4",
-                "sha256:a4c8473ce11a65999c8f59cb093e70686b6c84c98df58c1dae9b3b196089858a"
+                "sha256:38566c558a0a94d6531012c8e917b1b8518a41e418f7f15f00e129cc80162ad3",
+                "sha256:53765ec4f83a2b720214727e319607879fec4acde22c4fbb54fa2604e79e44ce",
+                "sha256:84698954b4e6719e912ef9a42a2431407fe3755590831699debda6fba92aac55"
             ],
             "markers": "python_version < '3.5'",
-            "version": "==3.6.6"
+            "version": "==3.7.4"
         },
         "wcwidth": {
             "hashes": [
