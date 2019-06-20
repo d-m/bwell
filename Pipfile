@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pylint = "<2.0.0"
+pep8 = "*"
+flake8 = "*"
+jupyter = "*"
+rope = "*"
+django-debug-toolbar = "*"
+pytest-django = "*"
+mock = "*"
+
+[packages]
+django = "==1.11.6"
+django-rest-framework = "*"
+markdown = "*"
+django-filter = "*"
+django-localflavor = "*"
+requests = "*"
+
+[requires]
+python_version = "2.7"
+
+[pipenv]
+allow_prereleases = true
