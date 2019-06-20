@@ -1,6 +1,6 @@
-# b.well Technical Interview Challenge
+# Sample App
 
-The goal of this challenge is to build a basic Django application using Python that implements a JSON REST API using `django-rest-framework` and the [Chicago health inspections dataset](https://data.cityofchicago.org/api/views/4ijn-s7e5/rows.csv?accessType=DOWNLOAD) found on [healthdata.gov](https://healthdata.gov/search/type/dataset).
+The goal of this app is to build a basic Django application using Python that implements a JSON REST API using `django-rest-framework` and the [Chicago health inspections dataset](https://data.cityofchicago.org/api/views/4ijn-s7e5/rows.csv?accessType=DOWNLOAD) found on [healthdata.gov](https://healthdata.gov/search/type/dataset).
 
 This project hopes to demonstrate the following stated skill targets:
 
@@ -38,15 +38,15 @@ pipenv installed successfully
 1. clone the repo and change directories into it:
 
     ```bash
-    $ git clone git@github.com:d-m/bwell.git bwell
-    Cloning into 'bwell'...
+    $ git clone git@github.com:d-m/django-sample-app.git django-sample-app
+    Cloning into 'django-sample-app'...
     remote: Enumerating objects: 111, done.
     remote: Counting objects: 100% (111/111), done.
     remote: Compressing objects: 100% (55/55), done.
     remote: Total 111 (delta 53), reused 111 (delta 53), pack-reused 0
     Receiving objects: 100% (111/111), 37.81 KiB | 7.56 MiB/s, done.
     Resolving deltas: 100% (53/53), done.
-    $ cd bwell
+    $ cd django-sample-app
 
     ```
 
@@ -59,12 +59,12 @@ pipenv installed successfully
     Pipfile: /<truncated>/Pipfile
     Using /usr/bin/python (2.7.10) to create virtualenv...
     ⠋ Creating virtual environment...Already using interpreter /usr/bin/python
-    New python executable in /home/.local/share/virtualenvs/bwell-alC5uoXR/bin/python
+    New python executable in /home/.local/share/virtualenvs/django-sample-app-alC5uoXR/bin/python
     Installing setuptools, pip, wheel...
     done.
 
     ✔ Successfully created virtual environment! 
-    Virtualenv location: /home/.local/share/virtualenvs/bwell-alC5uoXR
+    Virtualenv location: /home/.local/share/virtualenvs/django-sample-app-alC5uoXR
     Installing dependencies from Pipfile.lock (4e4e6c)...
     🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 92/92 — 00:00:20
     To activate this project's virtualenv, run pipenv shell.
@@ -76,7 +76,7 @@ pipenv installed successfully
     ```bash
     $ pipenv shell
     Launching subshell in virtual environment...
-    . /home/.local/share/virtualenvs/bwell-alC5uoXR/bin/activate
+    . /home/.local/share/virtualenvs/django-sample-app-alC5uoXR/bin/activate
     ```
 
 1. Migrate the database
