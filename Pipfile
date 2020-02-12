@@ -15,7 +15,7 @@ pytest-django = "*"
 mock = "*"
 
 [packages]
-django = "==1.11.21"
+django = "==1.11.28"
 django-rest-framework = "*"
 markdown = "*"
 django-filter = "*"
